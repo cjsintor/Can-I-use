@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: linear-gradient(90deg, rgb(61, 52, 34) 47.62%, rgb(82, 74, 58) 47.62%, rgb(82, 74, 58) 50%, rgb(61, 52, 34) 50%, rgb(61, 52, 34) 97.62%, rgb(82, 74, 58) 97.62%, rgb(82, 74, 58) 100%);
+    background-size: 42.00px 42.00px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    width: 1024px;
+    height: auto;
+    outline: 1px red;
+    margin: 0 auto;
+    padding: 0 5%;
+    .navbar {
+        list-style: none;
+        width: 1024px;
+        margin-bottom: 30px;
+        li {
+            display: inline-block;
+            font-size: 32px;
+            padding: 20px;
+            background-color: rgba(82, 74, 58, 0.65);
+            color: rgb(242, 234, 220);
+            margin-right: 2px;
+        }
+        .navabout {
+            position: relative;
+            left: 345px;
+        }
+    }
+    .hash {
+        text-decoration: none;
+        color: rgb(242, 234, 220);
+        background-color: rgb(200, 79, 0);
+        font-size: 50px;
+        padding: 5px 10px;
+        position: relative;
+        right: 50px;
+        top: 90px;
+    }    
+}
+.headeres6 {
+    background-color: rgb(200, 79, 0);
+    padding: 40px 100px;
+    h1 {
+        text-align: center;
+        color: rgb(242, 234, 220);
+    }
+    .underline {
+        text-decoration: underline;
+    }
+}
+.contents{
+    background-color: rgb(242, 233, 214);
+    height: 768px;
+    padding: 20px;
+    p {
+        width: 55%;
+        padding-top: 20px;
+        font-size: 20px;
+        font-weight: 100;
+        line-height: 28px;
+    }
+    .browsers {
+        padding: 40px 20px 0 40px;
+        .browser-lists {
+            list-style: none;
+            li {
+                display: inline-block;
+                width: 80px;
+                text-align: center;
+                vertical-align: text-bottom;
+                padding-bottom: 20px;
+                border-bottom: 3px solid black;
+                font-size: 20px;
+            }
+        }
+    }
+    .scores {
+        padding: 5px 20px 0 40px;
+        ul {
+            list-style: none;
+            display: inline-block;
+            vertical-align: top;
+            background-color:rgb(235, 226, 207);
+            .bad{
+                background-color: darkred;
+            }
+            .avg{
+                background-color:rgb(148, 112, 12);
+            }
+            .good{
+                background-color: rgb(37, 133, 51);
+            }
+            li {
+                width: 70px;
+                height: 30px;
+                color: rgb(242, 234, 220);
+                text-align: center;
+                padding-top: 10px;
+                padding-right: 10px;
+                margin-bottom: 3px;
+                position: relative;
+                span{
+                    position: absolute;
+                    left:1px;
+                    top: 1px;
+                    font-size:12px;
+                    padding: 0 2px;
+                    color:black;
+                    background-color: white;
+                }
+            }
+        }
+     }
+}
